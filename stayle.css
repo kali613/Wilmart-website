@@ -1,0 +1,816 @@
+*{
+    margin: 0 ;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family:"Open Sans", serif;
+}
+.nawicon-walmart img{
+    width:36px;
+    height: 36px;
+}
+.nawicon-walmart button{
+    background-color: #0071DC;
+    border-radius: 60px;
+    border: none;
+    padding: 10px 10px 5px 10px;
+}
+.nawicon-walmart button:hover{
+    background-color:#001E60;
+    cursor: pointer;
+}
+.howicon img{
+    width: 32px;
+    height: 32px;
+}
+.howtextup h1{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    color: #FFFFFF;
+}
+.howtextone,.howtextzero p{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.navbar{
+    height: 84px;
+    background-color:#0071DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 24px;
+}
+.howgrupnav{
+    display: flex;
+    align-items: center;
+    background-color: #044c90;
+    padding:10px;
+    gap: 10px;
+    border-radius: 25px;
+    height: 52px;
+}
+.howgrupnav:hover{
+    background-color: #002d58;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.how-grupflex{
+    display: flex;
+    gap: 5px;
+}
+.iconic i{
+    color: #FFFFFF;
+}
+.serch input{
+    padding: 1px 40px 1px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 745px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+.serch{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+.sechicon{
+    width: 32px;
+    height:32px;
+    background-color: #044c90;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.sechicon:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.sechicon i{
+    width: 20px;
+    height: 20px;
+}
+::placeholder{
+    color: #0071DC;
+    font-size: 15px;
+    font-family: "Open Sans", serif;
+}
+.registr{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+.ithemgrup{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+.list,.recordegrupicon,.registr{
+    display: flex;
+    gap: 10px;
+}
+.registrgrup{
+    display: flex;
+    align-items: center;
+}
+.ithemgrup:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius:30px;
+}
+.registrgrup:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius:30px;
+}
+.cartgrup{
+    padding: 5px;
+}
+.cartgrup:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius:30px;
+}
+.her{
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.him{
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.girl{
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.boy{
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.carticon a i{
+    height: 16px;
+    width: 16px;
+    color: #FFFFFF;
+}
+.catnamber a span{
+    color: #FFFFFF;
+}
+.registricon a i{
+    height: 16px;
+    width: 16px;
+    color: #FFFFFF;
+}
+.herticon a i{
+    height: 16px;
+    width: 16px;
+    color: #FFFFFF;
+}
+.ithemtextup a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.ithemtextdwn a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.sigintextup a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.sigintextdwn a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.sigintextdwn,.ithemtextdwn p{
+    font-weight: bold;
+}
+.catnamber{
+    color: #FFFFFF;
+}
+.cart-namber{
+    background-color: #ffc220;
+    box-shadow: inset 0 0 0 0.025rem #803d10;
+    padding: 0px 4px;
+    color: #2e2f32;
+    border-radius: 15px;
+    font-weight: 800;
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+    position: absolute;
+    padding-bottom: 18px;
+}
+.navdwn ul{
+    display: flex;
+    height: 50px;
+    gap: 25px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: #002d58;
+    padding: 0px 24px;
+}
+.navdwn ul:hover{
+    text-decoration: unset;
+    cursor: pointer;
+}
+.navdwn ul li a{
+    color: #002d58;
+    font-size: 14px;
+}
+.navbarcontainer{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    background-color: #F2F8FD;
+    gap: 20px;
+}
+.dep{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dep button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    background:local;
+    border:none;
+    border-radius: 20px;
+}
+.dep button:hover{
+    border: 1px solid #002d58;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.servs button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    background:local;
+    border:none;
+    border-radius: 20px;
+}
+.servs button:hover{
+    border: 1px solid #002d58;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.servs{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.servstext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.deptextup,
+.servstext p{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    color: black;
+}
+.deptextup{
+    display: flex;
+    gap: 10px;
+}
+.vertical{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.mini ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    height: 40px;
+    align-items: center;
+    background-color: #E6F1FC;
+}
+.mini ul li a:nth-child(1){
+    font-size: 14px;
+    color: black;
+}
+.endtextimg img{
+    width: 850px;
+    border-radius: 20px;
+}
+.endtextimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.endcard{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.endtextgrup{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.endbtn button{
+    padding: 4px 16px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+}
+.endbtn button:hover{
+    padding: 4px 16px;
+    border-radius: 15px;
+    background-color:black;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+/* nav end */
+
+.holideycard{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+.hol{
+    padding: 20px;
+    margin-left: 100px;
+}
+.fitimg img{
+    width: 395px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.fit{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.fits-textgrup{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px;
+}
+.flextextcub,.wowflexgrup,.shoesflexcub {
+    line-height: 2.0rem;
+}
+.fitsbtn button{
+    padding: 5px 25px;
+    border-radius: 20px;
+    border-color: #0068a0e8;
+}
+.fitsbtn button:hover{
+    background-color:black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.wowimg img{
+    width: 395px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.wow{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.wowtext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 18px;
+}
+.wowbtn button{
+    padding: 5px 25px;
+    border-radius: 20px;
+    border-color: #0068a0e8;
+}
+.wowbtn button:hover{
+    background-color:black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.shoesimg img{
+    width: 395px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.shoes{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.shoestext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px;
+}
+.shoesbtn button{
+    padding: 5px 25px;
+    border-radius: 25px;
+    border-color: #0068a0e8;
+}
+.shoesbtn button:hover{
+    background-color:black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.shopline img{
+   width: 185px;
+   height: 185px;
+}
+.shopline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.shopline:nth-child(2){
+    text-align: center;
+}
+.activcard{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.activear-startstext h3{
+    margin: 40px 105px;
+}
+
+.shopshoptextcub{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 125px;
+    align-items: center;
+}
+.hertext,.himtext,.girltext,.boytext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 15px;
+}
+.hertextdwn,.himtextdwn,.giltextdwn,.boytextdwn p{
+    font-size: 14px;
+}
+.hertextup,.himtextup,.girltextup,.boytextup h3{
+    font-size: 16px;
+}
+.herbtn  button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    border-color: #0468A0;
+}
+.himbtn  button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    border-color: #0468A0;
+}
+.girlsbtn  button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    border-color: #0468A0;
+}
+.boybtn button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    border-color: #0468A0;
+}
+.herbtn button:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.himbtn button:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.girlsbtn button:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.boybtn button:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.duitstextdwn,.bagtextdwn,.wachtextdwn p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.duitstextup,.bagtextup,.watchtextup h3{
+    font-size: 16px;
+    padding: 0px 0px 8px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.duitstext,.bagtext,.watchtext{
+    padding: 16px 16px 0px;
+}
+.dutbtn,.bagsbtn,.watchbtn{
+    margin: 20px 0px;
+}
+.watchbtn button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    background-color:#FFFFFF;
+    color: black;
+}
+.watchbtn button:hover{
+    background-color:black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.bagsbtn button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    background-color:#FFFFFF;
+    color: black;
+}
+.bagsbtn button:hover{
+    background-color:black;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.dutbtn button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    background-color:#FFFFFF;
+    color: black;
+}
+.dutbtn button:hover{
+    background-color:black;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.du-it,.bags,.watch{
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.34);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.geimtextstart{
+    padding: 40px 105px;
+}
+.coldleft img{
+    width: 1290px;
+}
+.coldleft{
+    display: flex;
+    justify-content: center;
+    padding: 40px 105px;
+}
+.jesicatextgrup{
+    position: absolute;
+    padding: 15px 15px;
+    line-height: 1.8;
+}
+.jesicatextdwn p{
+    width: 300px;
+    font-size: 14px;
+}
+.Jesica{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.jesicaimg img{
+    width: 1295px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+.jesicabtn{
+    margin-top: 15px;
+}
+.jesicabtn button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    background-color:#FFFFFF;
+    color: black;
+}
+.jesicabtn button:hover{
+    background-color:black;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.wintertimeline img{
+    width: 220px;
+}
+.wintertimeline{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.wintetimetext h3{
+    margin-left: 115px;
+}
+.felcardimg img{
+    width: 1340px;
+}
+.felcardimg{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.felcard{
+    margin-left: 90px;
+    box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.34);
+    border-radius: 15px;
+    width: 1340px;
+    line-height: 1.9;
+    border-color: #ffffff;
+}
+.felcardbtn button{
+    padding: 4px 16px;
+    border-radius: 15px;
+    background-color:#FFFFFF;
+    color: black;
+}
+.felcardbtn button:hover{
+    background-color:black;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.felcardtext{
+    padding: 15px;
+}
+.brendcontainer img{
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.brandone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    text-align: center;
+    padding: 40px;
+}
+.brandone:nth-child(2){
+    font-size: 16px;
+}
+.brendaltext{
+    justify-content: space-between;
+    padding: 40px;
+    margin-left: 45px;
+    display: flex;
+    padding-right: 80px
+}
+.instaimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.instaimg img{
+    width: 1200px;
+    border-radius: 5px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialtext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.socialtextup h3{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.socialtextcntr p{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 0px 0px 8px;
+}
+.socialtextend a{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.socialtext a{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.foterconteiner{
+    line-height: 2.0;
+    padding: 40px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.watstext, .for, .popular{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 115px
+}
+.factext, .aboutstext h3{
+    font-size: 24px;
+}
+.showtext a{
+    color: black;
+}
+.thinkbtn button{
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+.thinkbtn button:hover{
+    cursor: pointer;
+    border: 2.4px solid black;
+    
+}
+.think{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 144px;
+    background-color: #E6F1FC;
+}
+.thinkconteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fotertext ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 40px;
+    background-color: #004F9A;
+}
+.fotertext ul li a{
+    color: #FFFFFF;
+    width: 14px;
+    margin: 0px 24px 0px 0px;
+}
+.texts{
+    display: flex;
+    justify-content: center;
+    background-color: #004F9A;
+    color: #FFFFFF;
+    padding-bottom: 35px;
+}

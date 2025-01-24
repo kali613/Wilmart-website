@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", serif;
+}
+.myithemstart_text h3{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.liststext p{
+    font-size: 14px;
+}
+.myithemtextgrupcard{
+    display: flex;
+    gap: 20px;
+}
+.myithemtextgrup{
+    padding-left:75px;
+}
+.registrestext p{
+    font-size: 14px;
+}
+.reordertext p{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.myithemtextgrup{
+    margin: 0px 0px 24px;
+}
+.esentialtextup{
+    font-size: 18px;
+    margin: 8px 0px 16px;
+}
+.esentialbtn button{
+    padding: 10px 24px;
+    background-color: #0071DC;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.esentialbtn button a{
+    color: #FFFFFF;
+}
+.esentialbtn button:hover{
+    background-color: #002E99;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.esentialgrup{
+    display: flex;
+    gap:20px;
+    padding: 28px 0px 0px 63px;
+}
+.popularcard{
+    display: flex;
+    padding: 15px 80px;
+}
+.bounty{
+    padding: 4px 8px 4px 8px;
+}
+.bount-text{
+    line-height: 24px;
+    padding-top: 35px;
+}
+.bountnamber{
+    display: flex;
+    gap: 10px;
+}
+.bounticon{
+    display: flex;
+    gap: 10px;
+}
+.bountbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.bountbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.bounthert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.paper{
+    padding: 4px 8px 4px 8px;
+}
+.pepertext{
+    line-height: 24px;
+}
+.pepernumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.peperstar{
+    display: flex;
+    gap: 10px;
+} 
+.peperbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.peperbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.paperhert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.unu{
+    padding: 4px 8px 4px 8px;
+}
+.unutext{
+    line-height: 24px;
+}
+.ununumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.unustar{
+    display: flex;
+    gap: 10px;
+}
+.unubtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.unubtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.unuhert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.milk{
+    padding: 4px 8px 4px 8px;
+}
+.milktext{
+    line-height: 35px;
+}
+.milknumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.milkstar{
+    display: flex;
+    gap: 10px;
+}
+.milkbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.milkbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.milkhert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.purina{
+    padding: 4px 8px 4px 8px;
+}
+.purinatext{
+    line-height:24px;
+}
+.purinanumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.purinastar{
+    display: flex;
+    gap: 10px;
+}
+.purinabtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.purinabtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.purinahert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.dezinfect{
+    padding: 4px 8px 4px 8px;
+}
+.dezinfecttext{
+    line-height: 24px;
+}
+.dezinfectnumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.dezinfectstar{
+    display: flex;
+    gap: 10px;
+}
+.dezinfectbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.dezinfectbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.dezinfecthert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.popularstartstext h3{
+    padding: 35px 90px;
+}
+ 

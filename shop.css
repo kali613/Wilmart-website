@@ -1,0 +1,597 @@
+*{
+    margin: 0 ;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nawicon-walmart img{
+    width:36px;
+    height: 36px;
+}
+.nawicon-walmart button{
+    background-color: #0071DC;
+    border-radius: 60px;
+    border: none;
+    padding: 10px 10px 5px 10px;
+}
+.nawicon-walmart button:hover{
+    background-color:#001E60;
+    cursor: pointer;
+}
+.navbar{
+    height: 84px;
+    background-color:#0071DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 24px;
+}
+.iconic i{
+    color: #FFFFFF;
+}
+.serch input{
+    padding: 1px 40px 1px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1070px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+.serch{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+.sechicon{
+    width: 32px;
+    height:32px;
+    background-color: #044c90;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.sechicon:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.sechicon i{
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
+::placeholder{
+    color: #0071DC;
+    font-size: 15px;
+    font-family: "Open Sans", serif;
+}
+.registr{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+.ithemgrup{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+.list,.recordegrupicon,.registr{
+    display: flex;
+    gap: 10px;
+}
+.registrgrup{
+    display: flex;
+    align-items: center;
+}
+.ithemgrup:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius:30px;
+}
+.registrgrup:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius:30px;
+}
+.cartgrup{
+    padding: 5px;
+}
+.cartgrup:hover{
+    background-color: #002d58;
+    cursor: pointer;
+    border-radius:30px;
+}
+.navdwn ul{
+    display: flex;
+    height: 50px;
+    gap: 25px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: #002d58;
+    padding: 0px 24px;
+}
+.navdwn ul:hover{
+    text-decoration: unset;
+    cursor: pointer;
+}
+.navdwn ul li a{
+    color: #002d58;
+    font-size: 14px;
+}
+.navbarcontainer{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    background-color: #F2F8FD;
+    gap: 20px;
+}
+.dep{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dep button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    background:local;
+    border:none;
+    border-radius: 20px;
+}
+.dep button:hover{
+    border: 1px solid #002d58;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.servs button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    background:local;
+    border:none;
+    border-radius: 20px;
+}
+.servs button:hover{
+    border: 1px solid #002d58;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.servs{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.servstext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.deptextup,
+.servstext p{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    color: black;
+}
+.deptextup{
+    display: flex;
+    gap: 10px;
+}
+.vertical{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.endtextimg img{
+    width: 850px;
+    border-radius: 20px;
+}
+.endtextimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.endcard{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.endtextgrup{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.endbtn button{
+    padding: 4px 16px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+}
+.endbtn button:hover{
+    padding: 4px 16px;
+    border-radius: 15px;
+    background-color:black;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.herticon, .registricon, .carticon a i{
+    height: 16px;
+    width: 16px;
+    color: #FFFFFF;
+}
+.ithemtextup a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.ithemtextdwn a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.sigintextup a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.sigintextdwn a{
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+.sigintextdwn,.ithemtextdwn p{
+    font-weight: bold;
+}
+.catnamber{
+    color: #FFFFFF;
+}
+.cart-namber{
+    background-color: #ffc220;
+    box-shadow: inset 0 0 0 0.025rem #803d10;
+    padding: 0px 4px;
+    color: #2e2f32;
+    border-radius: 15px;
+    font-weight: 800;
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+    position: absolute;
+    padding-bottom: 18px;
+}
+.shopings{
+    display: flex;
+    justify-content: center;
+}
+.shopping-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.timetextgrup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.timebtngrup{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 400px;
+    justify-content: center;
+}
+.cartstextnumber{
+    padding-top: 45px;
+    margin: 0px 24px;
+    display: flex;
+    gap: 10px;
+}
+.cardboldtext p{
+    font-weight: 800;
+    font-size: 16px;
+}
+.shoppingbtn button{
+    width: 40%;
+    height: 3rem;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #0053E2;
+    border: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.shoppingbtn button:hover{
+    background-color:#002E99;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.timebtngrup button{
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+body{
+    font-family: "Open Sans", serif;
+}
+.myithemstart_text h3{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.liststext p{
+    font-size: 14px;
+}
+.myithemtextgrupcard{
+    display: flex;
+    gap: 20px;
+}
+.myithemtextgrup{
+    padding-left:75px;
+}
+.registrestext p{
+    font-size: 14px;
+}
+.reordertext p{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.myithemtextgrup{
+    margin: 0px 0px 24px;
+}
+.esentialtextup{
+    font-size: 18px;
+    margin: 8px 0px 16px;
+}
+.esentialbtn button{
+    padding: 10px 24px;
+    background-color: #0071DC;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.esentialbtn button a{
+    color: #FFFFFF;
+}
+.esentialbtn button:hover{
+    background-color: #002E99;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.esentialgrup{
+    display: flex;
+    gap:20px;
+    padding: 28px 0px 0px 63px;
+}
+.popularcard{
+    display: flex;
+    padding: 15px 80px;
+}
+.bounty{
+    padding: 4px 8px 4px 8px;
+}
+.bount-text{
+    line-height: 24px;
+    padding-top: 35px;
+}
+.bountnamber{
+    display: flex;
+    gap: 10px;
+}
+.bounticon{
+    display: flex;
+    gap: 10px;
+}
+.bountbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.bountbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.bounthert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.paper{
+    padding: 4px 8px 4px 8px;
+}
+.pepertext{
+    line-height: 24px;
+}
+.pepernumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.peperstar{
+    display: flex;
+    gap: 10px;
+} 
+.peperbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.peperbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.paperhert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.unu{
+    padding: 4px 8px 4px 8px;
+}
+.unutext{
+    line-height: 24px;
+}
+.ununumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.unustar{
+    display: flex;
+    gap: 10px;
+}
+.unubtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.unubtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.unuhert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.milk{
+    padding: 4px 8px 4px 8px;
+}
+.milktext{
+    line-height: 35px;
+}
+.milknumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.milkstar{
+    display: flex;
+    gap: 10px;
+}
+.milkbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.milkbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.milkhert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.purina{
+    padding: 4px 8px 4px 8px;
+}
+.purinatext{
+    line-height:24px;
+}
+.purinanumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.purinastar{
+    display: flex;
+    gap: 10px;
+}
+.purinabtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.purinabtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.purinahert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.dezinfect{
+    padding: 4px 8px 4px 8px;
+}
+.dezinfecttext{
+    line-height: 24px;
+}
+.dezinfectnumb{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+.dezinfectstar{
+    display: flex;
+    gap: 10px;
+}
+.dezinfectbtn button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #0071DC;
+    color: #FFFFFF;
+}
+.dezinfectbtn button:hover{
+    background-color: #002E99;
+    cursor: pointer;
+}
+.dezinfecthert i{
+    font-size: 24px;
+    position: absolute;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.popularstartstext h3{
+    padding: 35px 90px;
+}
+ 
